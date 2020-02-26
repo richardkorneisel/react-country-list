@@ -24,7 +24,7 @@ world using the [REST Countries](https://restcountries.eu) API.
 ### Part 1: Build it (I Do)
 
 Make it so that when the page loads (`App.js`), a list of all the countries in
-the world appears on the page. Use `fetch()` inside of `componentDidMount()` to
+the world appears on the page. Use `axios` inside of `componentDidMount()` to
 query the [REST Countries](https://restcountries.eu) API.
 
 Use the endpoint labeled `all` to get a list of every country and its

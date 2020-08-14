@@ -27,6 +27,12 @@ Make it so that when the page loads (`App.js`), a list of all the countries in
 the world appears on the page. Use `axios` inside of `componentDidMount()` to
 query the [REST Countries](https://restcountries.eu) API.
 
+Install the `axios` dependency 
+
+```
+  npm i axios
+```
+
 Use the endpoint labeled `all` to get a list of every country and its
 properties.
 
